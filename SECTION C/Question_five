@@ -19,18 +19,20 @@ class Ebook(Book):
     def display_info(self):
         super().display_info()
         print(f"File Size: {self.file_size} MB")
-
-
-# instance of the Book class
-book = Book("Python Programming", "John Smith", 300)
-book.display_info()
-
-# iii)
-# Create an instance of the Ebook class
-ebook = Ebook("Python Programming", "John Smith", 300, 10)
+        
+# instance of the Ebook class
+ebook = Ebook(" Programming", "Birungi", 100, 10)
 ebook.display_info()
 
+#iii
+# instance of the Book class
+book = Book("Programming", "Birungi", 100)
+book.display_info()
+
+
 #iv)
-#class
+#class is a data structure used to create objects
+
+# an object is the instance of a class
 
 
