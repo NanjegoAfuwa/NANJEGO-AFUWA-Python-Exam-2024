@@ -1,0 +1,44 @@
+
+# the student input details
+student_name= input("Enter student name:")
+student_number= input("Enter student number:")
+programming=int(input("Enter student programming marks:"))
+data_science=int(input("Enter data science marks:"))
+computer_application=int(input("Enter computer application mark;"))
+
+
+
+#The average marks
+total_number_of_items=programming + data_science + computer_application
+number_of_items= 3
+average_mark= total_number_of_items / number_of_items
+print(f"\nThe student average mark: {average_mark:.3f}\n") 
+
+#display of all details
+student_name = "Gloria Alinda"
+student_number= str("SEP23/BCS/088U/F")
+programming= 90
+computer_application= 77
+data_science= 87
+print(f"Enter student name:{student_name}")
+print(f"Enter student number:{student_number}")
+print(f"Enter  student programming marks:{programming}")
+print(f"Enter student data science marks:{data_science}")
+print(f"Enter student computer application marks:{computer_application}")
+print(f"The student average mark is: {average_mark}\n")
+
+
+
+
+
+#no.2 ii)
+miles_driven = int(input("Enter number of miles driven:"))
+gallon_of_gas_used = int(input("Enter number of gallons of used:"))
+MPG = (miles_driven/gallon_of_gas_used)
+print(MPG)
+
+
+# no2 iii)
+for number in range(1, 101): # we add 1 to the number to 100 to keep the 100 
+    if number % 2 != 0:
+        print(number)
